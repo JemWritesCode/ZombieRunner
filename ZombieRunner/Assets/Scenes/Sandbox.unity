@@ -1708,9 +1708,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4708178216914373570, guid: 8f0a0dc34a190ac4e95cb0a7afb85385, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.06
+    - target: {fileID: 8121928225437971686, guid: 8f0a0dc34a190ac4e95cb0a7afb85385, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8121928225616639299, guid: 8f0a0dc34a190ac4e95cb0a7afb85385, type: 3}
       propertyPath: m_Name
@@ -1721,24 +1721,12 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8121928225616639304, guid: 8f0a0dc34a190ac4e95cb0a7afb85385, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8121928225616639304, guid: 8f0a0dc34a190ac4e95cb0a7afb85385, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8121928225616639304, guid: 8f0a0dc34a190ac4e95cb0a7afb85385, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8121928225616639304, guid: 8f0a0dc34a190ac4e95cb0a7afb85385, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.999276
       objectReference: {fileID: 0}
     - target: {fileID: 8121928225616639304, guid: 8f0a0dc34a190ac4e95cb0a7afb85385, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.149638
+      value: 1.416
       objectReference: {fileID: 0}
     - target: {fileID: 8121928225616639304, guid: 8f0a0dc34a190ac4e95cb0a7afb85385, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1776,38 +1764,5 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1860831233}
-    - target: {fileID: 8121928225616639305, guid: 8f0a0dc34a190ac4e95cb0a7afb85385, type: 3}
-      propertyPath: chaseRange
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8121928225616639308, guid: 8f0a0dc34a190ac4e95cb0a7afb85385, type: 3}
-      propertyPath: m_StoppingDistance
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f0a0dc34a190ac4e95cb0a7afb85385, type: 3}
---- !u!1 &8121928225437971685 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8121928225616639299, guid: 8f0a0dc34a190ac4e95cb0a7afb85385, type: 3}
-  m_PrefabInstance: {fileID: 8121928225437971684}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &8121928225437971686
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8121928225437971685}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 99d9dc4b96174614fa300110f3dfb323, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
