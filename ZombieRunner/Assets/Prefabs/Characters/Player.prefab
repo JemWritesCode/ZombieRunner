@@ -182,6 +182,8 @@ GameObject:
   - component: {fileID: 13600000}
   - component: {fileID: 11400004}
   - component: {fileID: 225157700663297131}
+  - component: {fileID: 1860831238}
+  - component: {fileID: 3302140659473267186}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -316,6 +318,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8110ef14bc4ccfe49b2bcf686b2c5fe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitPoints: 100
+--- !u!114 &1860831238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f9d581fcdde7604b80c1e02862e41c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverCanvas: {fileID: 0}
+--- !u!114 &3302140659473267186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06d141fa83cf83640b2151a3e66de078, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fpsCamera: {fileID: 0}
 --- !u!1 &2353913718185716561
 GameObject:
   m_ObjectHideFlags: 0
