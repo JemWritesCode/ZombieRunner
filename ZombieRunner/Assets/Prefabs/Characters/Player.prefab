@@ -346,6 +346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fpsCamera: {fileID: 2000000}
+  fpsController: {fileID: 11400004}
   zoomedOutFOV: 60
   zoomedInFOV: 20
   zoomOutSensitivity: 2
@@ -372,6 +373,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6285474224724652953}
+  - component: {fileID: 1885852858}
   m_Layer: 0
   m_Name: Weapons
   m_TagString: Untagged
@@ -397,6 +399,19 @@ Transform:
   m_Father: {fileID: 400000}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1885852858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2353913718185716561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9367db286007d184989d752f56fc18ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentweapon: 0
 --- !u!1001 &689497978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -453,6 +468,14 @@ PrefabInstance:
       value: pistol
       objectReference: {fileID: 0}
     - target: {fileID: 8078752205203515889, guid: be93549a64d302a479ce4bb91f05daed, type: 3}
+      propertyPath: range
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078752205203515889, guid: be93549a64d302a479ce4bb91f05daed, type: 3}
+      propertyPath: damage
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078752205203515889, guid: be93549a64d302a479ce4bb91f05daed, type: 3}
       propertyPath: FPCamera
       value: 
       objectReference: {fileID: 2000000}
@@ -460,6 +483,10 @@ PrefabInstance:
       propertyPath: ammoSlot
       value: 
       objectReference: {fileID: 2995694214312903674}
+    - target: {fileID: 8078752205203515889, guid: be93549a64d302a479ce4bb91f05daed, type: 3}
+      propertyPath: timeBetweenShots
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be93549a64d302a479ce4bb91f05daed, type: 3}
 --- !u!4 &4100449526764607126 stripped
@@ -522,6 +549,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shotgun
       objectReference: {fileID: 0}
+    - target: {fileID: 4100449527451250124, guid: e19fd0e0922594a478e1cc9041561d24, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078752205203515889, guid: e19fd0e0922594a478e1cc9041561d24, type: 3}
+      propertyPath: range
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078752205203515889, guid: e19fd0e0922594a478e1cc9041561d24, type: 3}
+      propertyPath: damage
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 8078752205203515889, guid: e19fd0e0922594a478e1cc9041561d24, type: 3}
       propertyPath: FPCamera
       value: 
@@ -530,6 +569,10 @@ PrefabInstance:
       propertyPath: ammoSlot
       value: 
       objectReference: {fileID: 2995694214312903674}
+    - target: {fileID: 8078752205203515889, guid: e19fd0e0922594a478e1cc9041561d24, type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e19fd0e0922594a478e1cc9041561d24, type: 3}
 --- !u!4 &6803748744307092584 stripped
@@ -597,6 +640,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8078752205203515889, guid: 5445a7df991b6bf419649d0ba551b0c2, type: 3}
+      propertyPath: range
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078752205203515889, guid: 5445a7df991b6bf419649d0ba551b0c2, type: 3}
       propertyPath: FPCamera
       value: 
       objectReference: {fileID: 2000000}
@@ -604,6 +651,10 @@ PrefabInstance:
       propertyPath: ammoSlot
       value: 
       objectReference: {fileID: 2995694214312903674}
+    - target: {fileID: 8078752205203515889, guid: 5445a7df991b6bf419649d0ba551b0c2, type: 3}
+      propertyPath: timeBetweenShots
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5445a7df991b6bf419649d0ba551b0c2, type: 3}
 --- !u!4 &5258734648726240393 stripped
