@@ -340,7 +340,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100006}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06d141fa83cf83640b2151a3e66de078, type: 3}
   m_Name: 
@@ -363,7 +363,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6a724a2052ff5c48a42edd68da33b23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ammoAmount: 10
+  ammoSlots:
+  - ammoType: 0
+    ammoAmount: 10
+  - ammoType: 1
+    ammoAmount: 20
+  - ammoType: 2
+    ammoAmount: 8
 --- !u!1 &2353913718185716561
 GameObject:
   m_ObjectHideFlags: 0
@@ -411,7 +417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9367db286007d184989d752f56fc18ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentweapon: 0
+  currentweapon: 1
 --- !u!1001 &689497978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -570,6 +576,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2995694214312903674}
     - target: {fileID: 8078752205203515889, guid: e19fd0e0922594a478e1cc9041561d24, type: 3}
+      propertyPath: ammoType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078752205203515889, guid: e19fd0e0922594a478e1cc9041561d24, type: 3}
       propertyPath: timeBetweenShots
       value: 2
       objectReference: {fileID: 0}
@@ -652,11 +662,38 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2995694214312903674}
     - target: {fileID: 8078752205203515889, guid: 5445a7df991b6bf419649d0ba551b0c2, type: 3}
+      propertyPath: ammoType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078752205203515889, guid: 5445a7df991b6bf419649d0ba551b0c2, type: 3}
       propertyPath: timeBetweenShots
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5445a7df991b6bf419649d0ba551b0c2, type: 3}
+--- !u!1 &5258734648726003881 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4100449527451250124, guid: 5445a7df991b6bf419649d0ba551b0c2, type: 3}
+  m_PrefabInstance: {fileID: 8078752204447305061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2005689262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5258734648726003881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06d141fa83cf83640b2151a3e66de078, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fpsCamera: {fileID: 0}
+  fpsController: {fileID: 0}
+  zoomedOutFOV: 60
+  zoomedInFOV: 20
+  zoomOutSensitivity: 2
+  zoomInSensitivity: 0.5
 --- !u!4 &5258734648726240393 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4100449527450956268, guid: 5445a7df991b6bf419649d0ba551b0c2, type: 3}
