@@ -16,7 +16,6 @@ public class EnemyAttack : MonoBehaviour
     public void AttackHitEvent()
     {
         if (target == null) return;
-        Debug.Log("bang bang");
         target.playerTakeDamage(damage);
     }
 
