@@ -11,7 +11,10 @@ public class BatteryPickup : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            Debug.Log("Player collided with battery");
+            other.GetComponentInChildren<FlashlightSystem>().RestoreLightAngle(restoreAngle);
+            other.GetComponentInChildren<FlashlightSystem>().AddLightIntensity(addIntensity);
+            Destroy(gameObject);
         }
+
     }
 }

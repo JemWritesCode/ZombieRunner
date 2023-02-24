@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 904693576406913840}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.17402777, y: 0.410338, z: -0.13185339}
+  m_LocalPosition: {x: 0.17402777, y: 1.24, z: -0.13185339}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44,8 +44,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
-  m_Range: 10
+  m_Intensity: 1.78
+  m_Range: 5.36
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -137,11 +137,11 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3437702105238965167}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.3708868
-  m_Center: {x: 0.16450965, y: 0, z: -0.03301668}
+  m_Radius: 0.6500373
+  m_Center: {x: 0.16450965, y: 0.2791505, z: -0.03301668}
 --- !u!114 &503192630882287855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,6 +178,10 @@ PrefabInstance:
     - target: {fileID: 2942035677729623949, guid: 60077302accfb4e42a36288c8753ed48, type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2942035677729623949, guid: 60077302accfb4e42a36288c8753ed48, type: 3}
+      propertyPath: m_VersionIndex
+      value: 1192
       objectReference: {fileID: 0}
     - target: {fileID: 2942035677729623950, guid: 60077302accfb4e42a36288c8753ed48, type: 3}
       propertyPath: m_RootOrder
