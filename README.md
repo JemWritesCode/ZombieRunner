@@ -15,3 +15,5 @@ The rest of my code from that course can be found [here in my other repo](https:
 [Vehicle Parking Lot Garage Gate PBR by devotid](https://assetstore.unity.com/packages/3d/environments/roadways/vehicle-parking-lot-garage-gate-pbr-111423)
 
 [Technical laboratory designer-V1 Room by NickStenton](https://assetstore.unity.com/packages/3d/technical-laboratory-designer-v1-room-93699)
+
+[Military Vehicle by Duane's Mind](https://assetstore.unity.com/packages/3d/vehicles/land/military-vehicle-9225)
