@@ -17,3 +17,7 @@ The rest of my code from that course can be found [here in my other repo](https:
 [Technical laboratory designer-V1 Room by NickStenton](https://assetstore.unity.com/packages/3d/technical-laboratory-designer-v1-room-93699)
 
 [Military Vehicle by Duane's Mind](https://assetstore.unity.com/packages/3d/vehicles/land/military-vehicle-9225)
+
+[Prop Pack by MentalDreams](https://assetstore.unity.com/packages/3d/props/industrial/prop-pack-30963)
+
+[FPS props by Not Good Enough](https://assetstore.unity.com/packages/3d/props/industrial/fps-props-147172)
