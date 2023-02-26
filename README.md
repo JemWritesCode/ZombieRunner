@@ -25,3 +25,5 @@ The rest of my code from that course can be found [here in my other repo](https:
 [3D Free Modular Kit by Barking Dog](https://assetstore.unity.com/packages/3d/environments/3d-free-modular-kit-85732)
 
 [Old Military Bed by Next Level 3D](https://assetstore.unity.com/packages/3d/props/interior/old-military-bed-40205)
+
+[Industrial Props Kit by Universal Assets](https://assetstore.unity.com/packages/3d/props/industrial/industrial-props-kit-84745)
