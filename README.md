@@ -29,3 +29,5 @@ The rest of my code from that course can be found [here in my other repo](https:
 [Industrial Props Kit by Universal Assets](https://assetstore.unity.com/packages/3d/props/industrial/industrial-props-kit-84745)
 
 [Free Laboratory Pack by Storm Bringer Studios](https://assetstore.unity.com/packages/3d/props/tools/free-laboratory-pack-123782)
+
+[Hospital Bed- Free 3D Asset by Cobble Games](https://assetstore.unity.com/packages/3d/props/interior/hospital-bed-free-3d-asset-190310)
