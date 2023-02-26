@@ -34,3 +34,5 @@ The rest of my code from that course can be found [here in my other repo](https:
 
 [Morgue Room PBR by Rokay3D](https://assetstore.unity.com/packages/3d/environments/morgue-room-pbr-65817)
 
+[Folding Table and Chair PBR by devotid](https://assetstore.unity.com/packages/3d/props/furniture/folding-table-and-chair-pbr-111726)
+
