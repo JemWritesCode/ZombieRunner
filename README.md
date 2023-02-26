@@ -23,3 +23,5 @@ The rest of my code from that course can be found [here in my other repo](https:
 [FPS props by Not Good Enough](https://assetstore.unity.com/packages/3d/props/industrial/fps-props-147172)
 
 [3D Free Modular Kit by Barking Dog](https://assetstore.unity.com/packages/3d/environments/3d-free-modular-kit-85732)
+
+[Old Military Bed by Next Level 3D](https://assetstore.unity.com/packages/3d/props/interior/old-military-bed-40205)
