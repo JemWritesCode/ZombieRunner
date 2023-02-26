@@ -2,9 +2,13 @@
 
 Play Game Link to be Added Here
 
-This is the the code from creating a basic zombie FPS shooter game while following the [GameDev.tv Unity3D course](https://www.udemy.com/course/unitycourse2). 
+This is the the code from creating a basic zombie FPS shooter game while following the [GameDev.tv Unity3D course](https://www.udemy.com/course/unitycourse2). I added some extra stuff for practice as well. It definitely still has some bugs and is lacking some polish, but it was just a learning project.
 
 The rest of my code from that course can be found [here in my other repo](https://github.com/JemWritesCode/Unity3DTutorial). I separated this project so I can try out some things with Unity/Github.
+
+## Some Known Bugs
+
+Enemies can clip through objects.
 
 ## Assets Used
 
@@ -37,4 +41,8 @@ The rest of my code from that course can be found [here in my other repo](https:
 [Folding Table and Chair PBR by devotid](https://assetstore.unity.com/packages/3d/props/furniture/folding-table-and-chair-pbr-111726)
 
 [Kitchen Creation Kit by Studio Krokidana](https://assetstore.unity.com/packages/3d/environments/kitchen-creation-kit-2854)
+
+[Food Pack Mixed by Brain Fail Productions](https://assetstore.unity.com/packages/3d/props/food/food-pack-mixed-154349)
+
+[Silent Mist by yann](https://assetstore.unity.com/packages/audio/ambient/silent-mist-102491)
 
