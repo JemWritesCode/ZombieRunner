@@ -2,7 +2,7 @@
 
 Play Game Link to be Added Here
 
-This is the the code from creating a basic zombie FPS shooter game while following the [GameDev.tv Unity3D course](https://www.udemy.com/course/unitycourse2). 
+This is the the code from creating a basic zombie FPS shooter game while following the [GameDev.tv Unity3D course](https://www.udemy.com/course/unitycourse2). I added some extra stuff for practice as well.
 
 The rest of my code from that course can be found [here in my other repo](https://github.com/JemWritesCode/Unity3DTutorial). I separated this project so I can try out some things with Unity/Github.
 
