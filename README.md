@@ -6,11 +6,12 @@ This is the the code from creating a basic zombie FPS shooter game while followi
 
 The rest of my code from that course can be found [here in my other repo](https://github.com/JemWritesCode/Unity3DTutorial). I separated this project so I can try out some things with Unity/Github.
 
-## WIP
+## WIP (I may or may not bother with these)
 
 - Add zombie sounds when they see the player so the player isn't completely blindsided
 - Add some basic sound for gun firing
 - add instructions for the itch page
+- win screen if they pick up the vaccine
 
 ## Some Known Bugs
 
