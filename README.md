@@ -36,3 +36,5 @@ The rest of my code from that course can be found [here in my other repo](https:
 
 [Folding Table and Chair PBR by devotid](https://assetstore.unity.com/packages/3d/props/furniture/folding-table-and-chair-pbr-111726)
 
+[Kitchen Creation Kit by Studio Krokidana](https://assetstore.unity.com/packages/3d/environments/kitchen-creation-kit-2854)
+
