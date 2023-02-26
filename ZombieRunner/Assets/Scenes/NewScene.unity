@@ -157,7 +157,7 @@ Transform:
   - {fileID: 1266398961}
   - {fileID: 15407841}
   m_Father: {fileID: 1881397657}
-  m_RootOrder: 69
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: -2.078, z: 0}
 --- !u!1001 &11256488
 PrefabInstance:
@@ -7766,7 +7766,7 @@ Transform:
   - {fileID: 1895612708}
   - {fileID: 1317296405}
   m_Father: {fileID: 1881397657}
-  m_RootOrder: 68
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: -7.54, z: 0}
 --- !u!4 &404642014 stripped
 Transform:
@@ -9991,7 +9991,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1881397657}
-  m_RootOrder: 52
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &548133974
 PrefabInstance:
@@ -14126,7 +14126,7 @@ Transform:
   - {fileID: 1106743500}
   - {fileID: 794468072}
   m_Father: {fileID: 1881397657}
-  m_RootOrder: 70
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: -2.078, z: 0}
 --- !u!1001 &751344654
 PrefabInstance:
@@ -14905,9 +14905,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: fe51284d42a4b4c4596d76d1fcb91bab, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -31989,8 +31989,8 @@ Transform:
   - {fileID: 899413047}
   - {fileID: 1074629318}
   - {fileID: 229722790}
-  - {fileID: 1047509425}
   - {fileID: 1755463205}
+  - {fileID: 1047509425}
   - {fileID: 49430537}
   - {fileID: 1229976757}
   - {fileID: 1093746495}
@@ -35499,6 +35499,7 @@ Transform:
   - {fileID: 483856631}
   - {fileID: 293701175}
   - {fileID: 1117886202}
+  - {fileID: 546437521}
   - {fileID: 555150957}
   - {fileID: 1588556246}
   - {fileID: 1228692706}
@@ -35517,12 +35518,15 @@ Transform:
   - {fileID: 67232276}
   - {fileID: 1749929927}
   - {fileID: 1501501157}
+  - {fileID: 401898021}
+  - {fileID: 3706848}
   - {fileID: 1009720482}
   - {fileID: 914733626}
   - {fileID: 976024759}
   - {fileID: 701221286}
   - {fileID: 1199094225}
   - {fileID: 1513735580}
+  - {fileID: 749644078}
   - {fileID: 1451008487}
   - {fileID: 1047631240}
   - {fileID: 102349791}
@@ -35541,11 +35545,8 @@ Transform:
   - {fileID: 1599709042}
   - {fileID: 866693757}
   - {fileID: 1597923206}
-  - {fileID: 1123757640}
-  - {fileID: 879435480}
-  - {fileID: 1474572367}
   - {fileID: 174027569}
-  - {fileID: 546437521}
+  - {fileID: 879435480}
   - {fileID: 2136274904}
   - {fileID: 867590985}
   - {fileID: 1994627024}
@@ -35561,9 +35562,9 @@ Transform:
   - {fileID: 1226096380}
   - {fileID: 1050539969}
   - {fileID: 1436769364}
-  - {fileID: 401898021}
-  - {fileID: 3706848}
-  - {fileID: 749644078}
+  - {fileID: 4176766244076367}
+  - {fileID: 1474572367}
+  - {fileID: 1123757640}
   - {fileID: 440063232}
   - {fileID: 729700305}
   - {fileID: 931906355}
@@ -35576,7 +35577,6 @@ Transform:
   - {fileID: 1139203138}
   - {fileID: 1070963661}
   - {fileID: 943302438}
-  - {fileID: 4176766244076367}
   m_Father: {fileID: 190526636}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -40410,7 +40410,7 @@ Transform:
   - {fileID: 4335092514517633}
   - {fileID: 1432178621}
   m_Father: {fileID: 1881397657}
-  m_RootOrder: 83
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: -3.789, z: 0}
 --- !u!4 &4335092514517633
 Transform:
