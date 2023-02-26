@@ -31,3 +31,6 @@ The rest of my code from that course can be found [here in my other repo](https:
 [Free Laboratory Pack by Storm Bringer Studios](https://assetstore.unity.com/packages/3d/props/tools/free-laboratory-pack-123782)
 
 [Hospital Bed- Free 3D Asset by Cobble Games](https://assetstore.unity.com/packages/3d/props/interior/hospital-bed-free-3d-asset-190310)
+
+[Morgue Room PBR by Rokay3D](https://assetstore.unity.com/packages/3d/environments/morgue-room-pbr-65817)
+
