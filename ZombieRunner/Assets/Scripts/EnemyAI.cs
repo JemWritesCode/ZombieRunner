@@ -54,6 +54,7 @@ public class EnemyAI : MonoBehaviour
     private void EngageTarget()
     {
         FaceTarget();
+        PlayZombieSeesPlayerSound();
         if(distanceToTarget >= navMeshAgent.stoppingDistance)
         {
             ChaseTarget();
@@ -62,6 +63,11 @@ public class EnemyAI : MonoBehaviour
         {
             AttackTarget();
         }
+    }
+
+    private void PlayZombieSeesPlayerSound()
+    {
+        GetComponent<AudioSource>().enabled = true;
     }
 
     private void AttackTarget()
