@@ -56,3 +56,4 @@ One of the guns doesn't have ammo you can pickup
 
 [Zombie1 by Under7dude](https://freesound.org/people/Under7dude/sounds/163440/)
 
+[Pickup Ammo by Thunderman98](https://freesound.org/people/Thunderman98/sounds/656183/)
