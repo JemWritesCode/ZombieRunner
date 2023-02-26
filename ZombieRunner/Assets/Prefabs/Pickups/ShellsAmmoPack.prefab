@@ -48,8 +48,8 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 1.0833635
+  m_Center: {x: -0.72400665, y: 0, z: 0.24946308}
 --- !u!114 &7719240103980388146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 21
+  m_VersionIndex: 42
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -235,6 +235,10 @@ PrefabInstance:
     - target: {fileID: 5878047889144841898, guid: 0d732b14da07f9f43853551c86d7aa7b, type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878047889144841898, guid: 0d732b14da07f9f43853551c86d7aa7b, type: 3}
+      propertyPath: m_VersionIndex
+      value: 1652
       objectReference: {fileID: 0}
     - target: {fileID: 5878047889144841898, guid: 0d732b14da07f9f43853551c86d7aa7b, type: 3}
       propertyPath: m_SelectedEdges.Array.size
@@ -1056,7 +1060,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5878047889144841898, guid: 0d732b14da07f9f43853551c86d7aa7b, type: 3}
       propertyPath: m_VersionIndex
-      value: 1598
+      value: 1655
       objectReference: {fileID: 0}
     - target: {fileID: 5878047889144841902, guid: 0d732b14da07f9f43853551c86d7aa7b, type: 3}
       propertyPath: m_Mesh
@@ -1143,6 +1147,10 @@ PrefabInstance:
     - target: {fileID: 5878047889144841898, guid: 0d732b14da07f9f43853551c86d7aa7b, type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878047889144841898, guid: 0d732b14da07f9f43853551c86d7aa7b, type: 3}
+      propertyPath: m_VersionIndex
+      value: 1652
       objectReference: {fileID: 0}
     - target: {fileID: 5878047889144841902, guid: 0d732b14da07f9f43853551c86d7aa7b, type: 3}
       propertyPath: m_Mesh
