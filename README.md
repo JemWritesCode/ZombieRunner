@@ -54,3 +54,5 @@ One of the guns doesn't have ammo you can pickup
 
 [Silent Mist by yann](https://assetstore.unity.com/packages/audio/ambient/silent-mist-102491)
 
+[Zombie1 by Under7dude](https://freesound.org/people/Under7dude/sounds/163440/)
+
