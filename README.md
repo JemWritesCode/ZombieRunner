@@ -38,5 +38,7 @@ The rest of my code from that course can be found [here in my other repo](https:
 
 [Kitchen Creation Kit by Studio Krokidana](https://assetstore.unity.com/packages/3d/environments/kitchen-creation-kit-2854)
 
+[Food Pack Mixed by Brain Fail Productions](https://assetstore.unity.com/packages/3d/props/food/food-pack-mixed-154349)
+
 [Silent Mist by yann](https://assetstore.unity.com/packages/audio/ambient/silent-mist-102491)
 
