@@ -8,7 +8,6 @@ The rest of my code from that course can be found [here in my other repo](https:
 
 ## WIP (I may or may not bother with these)
 
-- Add zombie sounds when they see the player so the player isn't completely blindsided
 - Add some basic sound for gun firing
 - add instructions for the itch page
 - win screen if they pick up the vaccine
