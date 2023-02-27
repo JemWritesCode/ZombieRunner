@@ -8,7 +8,6 @@ The rest of my code from that course can be found [here in my other repo](https:
 
 ## WIP (I may or may not bother with these)
 
-- Add some basic sound for gun firing
 - add instructions for the itch page
 - win screen if they pick up the vaccine
 
@@ -56,3 +55,5 @@ One of the guns doesn't have ammo you can pickup
 [Zombie1 by Under7dude](https://freesound.org/people/Under7dude/sounds/163440/)
 
 [Pickup Ammo by Thunderman98](https://freesound.org/people/Thunderman98/sounds/656183/)
+
+[Heather Gunshot Effect2 by okieactor](https://freesound.org/people/okieactor/sounds/415912/)
