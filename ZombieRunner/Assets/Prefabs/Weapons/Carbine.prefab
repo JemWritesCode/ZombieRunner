@@ -554,8 +554,12 @@ MonoBehaviour:
   range: 100
   damage: 30
   muzzleFlash: {fileID: 6947434290984780388}
+  gunSound: {fileID: 0}
   hitEffect: {fileID: 786463451353324187, guid: 6d11035d04e630645a84f0bc01742c8e, type: 3}
   ammoSlot: {fileID: 0}
+  ammoType: 0
+  timeBetweenShots: 0.5
+  ammoText: {fileID: 0}
 --- !u!1 &4100449527451250126
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,6 +701,14 @@ PrefabInstance:
     - target: {fileID: 3360542172024696037, guid: 4a60d8477aafac045a1f56d3a60c7813, type: 3}
       propertyPath: m_Name
       value: Muzzle Flash
+      objectReference: {fileID: 0}
+    - target: {fileID: 3360542172024696037, guid: 4a60d8477aafac045a1f56d3a60c7813, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3614249443508621660, guid: 4a60d8477aafac045a1f56d3a60c7813, type: 3}
+      propertyPath: playOnAwake
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a60d8477aafac045a1f56d3a60c7813, type: 3}

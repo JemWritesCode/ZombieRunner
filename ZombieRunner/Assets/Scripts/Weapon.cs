@@ -11,6 +11,7 @@ public class Weapon : MonoBehaviour
     [SerializeField] float range = 100f;
     [SerializeField] float damage = 30f;
     [SerializeField] ParticleSystem muzzleFlash;
+    [SerializeField] AudioSource gunSound;
     [SerializeField] GameObject hitEffect;
     [SerializeField] Ammo ammoSlot;
     [SerializeField] AmmoType ammoType;
@@ -53,9 +54,11 @@ public class Weapon : MonoBehaviour
         canShoot = true;
     }
 
+
     private void PlayMuzzleFlash()
     {
         muzzleFlash.Play();
+        gunSound.Play();
     }
 
     private void ProcessRaycast()
