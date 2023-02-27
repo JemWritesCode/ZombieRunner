@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,7 +13,13 @@ public class AmmoPickup : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             FindObjectOfType<Ammo>().IncreaseCurrentAmmo(ammoType, ammoAmount);
+            PlayPickupSound();
             Destroy(gameObject);
         }
+    }
+
+    private void PlayPickupSound()
+    {
+        GetComponent<AudioSource>().enabled = true;
     }
 }
