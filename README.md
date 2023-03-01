@@ -1,6 +1,6 @@
 # ZombieRunner
 
-Play Game Link to be Added Here
+[Play the Game on Itch.io](https://jemwritescode.itch.io/tech-demo-basic-zombie-fps)
 
 This is the the code from creating a basic zombie FPS shooter game while following the [GameDev.tv Unity3D course](https://www.udemy.com/course/unitycourse2). I added some extra stuff for practice as well. It definitely still has some bugs and is lacking some polish, but it was just a learning project.
 
