@@ -28,8 +28,9 @@ public class EnemyAI : MonoBehaviour
     {
         if (health.IsDead())
         {
-            enabled = false;
+            enabled = false; //just disables EnemyAI
             navMeshAgent.enabled = false;
+            GetComponent<CapsuleCollider>().enabled = false;
         }
         else
         {
